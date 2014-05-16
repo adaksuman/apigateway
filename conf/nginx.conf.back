@@ -4,17 +4,8 @@ events {
     worker_connections 1024;
 }
 http {
-    lua_shared_dict stats 10m;
     server {
         listen 8080;
-
-        location /hit {
-         content_by_lua '
-                ngx.shared.stats:incr("hits", 1)
-                ngx.say(ngx.shared.stats:get("hits"))
-            ';
-        }
-
         location / {
            resolver 8.8.4.4; 
             set $target '';

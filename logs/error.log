@@ -1,0 +1,15 @@
+2014/05/15 21:54:44 [notice] 18730#0: signal process started
+2014/05/15 21:54:44 [error] 18730#0: open() "/home/suman/apigateway/logs/nginx.pid" failed (2: No such file or directory)
+2014/05/15 21:54:54 [notice] 18733#0: using the "epoll" event method
+2014/05/15 21:54:54 [notice] 18733#0: openresty/1.5.12.1
+2014/05/15 21:54:54 [notice] 18733#0: built by gcc 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+2014/05/15 21:54:54 [notice] 18733#0: OS: Linux 3.13.0-24-generic
+2014/05/15 21:54:54 [notice] 18733#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2014/05/15 21:54:54 [notice] 18734#0: start worker processes
+2014/05/15 21:54:54 [notice] 18734#0: start worker process 18735
+2014/05/15 21:54:54 [notice] 18734#0: start worker process 18736
+2014/05/15 21:55:28 [info] 18735#0: *1 client 127.0.0.1 closed keepalive connection
+2014/05/15 21:55:31 [info] 18735#0: *2 client 127.0.0.1 closed keepalive connection
+2014/05/15 21:55:34 [info] 18735#0: *3 client 127.0.0.1 closed keepalive connection
+2014/05/16 11:00:02 [info] 18735#0: epoll_wait() failed (4: Interrupted system call)
+2014/05/16 11:00:02 [info] 18736#0: epoll_wait() failed (4: Interrupted system call)
